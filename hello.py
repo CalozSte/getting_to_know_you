@@ -23,6 +23,6 @@ with open('student_arrival.txt', 'a') as file:
 			print(f'Hi {student}, welcome to Barcelona. We hope you like the city so far', file=file)
 		else:
 			print(f'Welcome to Barcelona, {student}. We hope you are enjoying the first few days.', file=file)
-	else:
-		print('We hope to see you soon in Barcelona', file = file)	
+	else: 
+		print(f'We hope to see you soon in Barcelona {student}', file = file)	
 
